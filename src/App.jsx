@@ -1,6 +1,7 @@
 import Ex_Binding from "./Ex_Binding/Ex_Binding";
 import Ex_DemoState from "./Ex_DemoState/Ex_DemoState";
 import Ex_Event from "./Ex_Event/Ex_Event";
+import Ex_Redux from "./Ex_Redux/Ex_Redux";
 import Ex_ShoeShop from "./Ex_ShoeShop/Ex_ShoeShop";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
@@ -22,7 +23,8 @@ function App() {
       {/* <Ex_Binding /> */}
       {/* <Ex_Event /> */}
       {/* <Ex_DemoState /> */}
-      <Ex_ShoeShop />
+      {/* <Ex_ShoeShop /> */}
+      <Ex_Redux />
     </>
   );
 }
