@@ -4,6 +4,7 @@ import XucXac from "./XucXac";
 import KetQua from "./KetQua";
 import { useSelector, useDispatch } from "react-redux";
 import { kiemTraKetQua } from "../redux/slice/xiNgau";
+import Header from "../layout/Header/Header";
 // import bgGame from "./../assets/image/bgGame.png";
 const Ex_Redux = () => {
   // Yêu cầu: thực hiện nhìn trên giao diện, viết báo cáo về các dữ liệu sẽ thay đổi, một số phương thức sẽ chạy khi người dùng thao tác với các thẻ đang có trên giao diện
