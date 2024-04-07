@@ -16,23 +16,27 @@ import Ex_LifeCycle from "./Ex_LifeCycle/Ex_LifeCycle";
 function App() {
   const route = useRoutes([
     // Route chứa component HomeTemplate
+    // {
+    //   path: "/",
+    //   element: <HomeTemplate />,
+    //   children: [
+    //     {
+    //       element: <Ex_LifeCycle />,
+    //       index: true,
+    //     },
+    //     {
+    //       path: "shoe-shop",
+    //       element: <Ex_ShoeShop />,
+    //     },
+    //   ],
+    // },
+    // {
+    //   path: "*",
+    //   element: <NotFound />,
+    // },
     {
       path: "/",
-      element: <HomeTemplate />,
-      children: [
-        {
-          element: <Ex_LifeCycle />,
-          index: true,
-        },
-        {
-          path: "shoe-shop",
-          element: <Ex_ShoeShop />,
-        },
-      ],
-    },
-    {
-      path: "*",
-      element: <NotFound />,
+      element: <Ex_LifeCycle />,
     },
   ]);
   return route;
